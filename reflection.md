@@ -1,6 +1,6 @@
 # Lab 5: Static Code Analysis — Reflection
 
-## 1. What is static code analysis, and why is it important?
+# 1. What is static code analysis, and why is it important?
 
 Static code analysis is the process of examining source code without executing the program to identify potential bugs, security vulnerabilities, coding-standard violations, and maintainability problems.
 
@@ -10,7 +10,7 @@ Static analysis was useful because it identified issues that might not be obviou
 
 The lab demonstrated that static analysis should be an important part of the software development process. It helps developers identify defects early, improve code quality, strengthen security, and make programs easier to maintain.
 
-## 2. What are the differences between Pylint, Bandit, and Flake8?
+# 2. What are the differences between Pylint, Bandit, and Flake8?
 
 I used three static analysis tools, each with a different primary purpose.
 
@@ -46,7 +46,7 @@ I reformatted the code, removed the unused variable, used `is None` checks where
 
 The final Flake8 report contained no violations.
 
-## 3. What problems did you identify and how did you fix them?
+# 3. What problems did you identify and how did you fix them?
 
 I identified and corrected several issues in the bike-share station program.
 
@@ -86,7 +86,7 @@ I also renamed functions to follow Python's snake_case convention, added docstri
 
 These changes made the program more readable, maintainable, and robust while preserving its main functionality.
 
-## 4. How did static analysis improve the program, and what did I learn?
+# 4. How did static analysis improve the program, and what did I learn?
 
 The original program ran, but its static analysis reports revealed several security, quality, and style problems.
 
